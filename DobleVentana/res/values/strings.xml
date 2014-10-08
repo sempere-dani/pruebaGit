@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DobleVentana</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">usuario</string>
+    <string name="contrasena">contraseña</string>
+    <string name="comprobar">comprobar</string>
+    <string name="comprobado">comprobado</string>
+    <string name="title_activity_second">title_activity_second</string>
+    <string name="NoComprobado">No comprobado</string>
+    
+    
+
+</resources>

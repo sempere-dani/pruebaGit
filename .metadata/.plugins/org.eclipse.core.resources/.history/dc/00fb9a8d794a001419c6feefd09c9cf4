@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DondeEstaListaContactos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ButtonBuscar">Buscar</string>
+    <string name="ButtonCopiaContactos">Copiar desde contactos</string>
+    <string name="IntroData">Introduce Lugar o Direccion</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dobleventana.SecondActivity" >
+
+    <TextView
+        android:id="@+id/usuario2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usuario1"
+        android:layout_below="@+id/usuario1"
+        android:layout_marginTop="22dp"
+        android:text="@string/usuario"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gris"
+        android:textColorHint="@color/gris" />
+
+    <TextView
+        android:id="@+id/pss2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pss1"
+        android:layout_below="@+id/pss1"
+        android:layout_marginTop="44dp"
+        android:text="@string/contrasena"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gris" />
+
+    <TextView
+        android:id="@+id/pss1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/usuario2"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/contrasena"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/usuario1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pss1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:text="@string/usuario"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/pss2"
+        android:layout_below="@+id/pss2"
+        android:layout_marginTop="36dp"
+        android:text="@string/NoComprobado" />
+
+</RelativeLayout>
